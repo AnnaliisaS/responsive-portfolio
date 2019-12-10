@@ -1,0 +1,45 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174049__340.png");
+    background-size: cover;
+}
+.container {
+    box-sizing: border-box;
+    width: 960px;
+    margin-bottom: 0;
+}
+div {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+nav {
+    flex-direction: row;
+    margin-bottom: 0;
+}
+.navbar-nav {
+    display: inline-block;
+  }
+  
+  .navbar-nav>li {
+     display: inline-block;
+     text-align: center;
+     padding: 12px;
+  }
+  
+li a {
+    display: block;
+    position: relative;
+    color: #777777;
+    text-decoration: none;
+
+  }
+
+  .navbar-text {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    border-width: 10px, 10px, 10px, 10px;
+    font-family: "Georgia", Times, "Times New Roman", Serif;
+    padding: 20px;
+    margin-bottom: 0;
+}
