@@ -60,3 +60,8 @@ button {
     border: none;
     background: none;
 }
+
+.form-group {
+    padding-left: 20px;
+    width: 100%;
+}
