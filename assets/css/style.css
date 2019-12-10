@@ -106,12 +106,12 @@ img {
     width: 250px;
 }
 
-h3 {
+h3, h5 {
     text-align: center;
     vertical-align: middle;
     padding-top: 3%;
     padding-bottom: 3%;
-    height: 50px;
+    height: auto;
     width: 250px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -139,5 +139,5 @@ h3 {
 
 #ten {
     position: absolute;
-    top: 75px;
+    top: 95px;
 }
