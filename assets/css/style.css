@@ -1,57 +1,48 @@
-/* index.html */
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174049__340.png");
+    background-image: url("./../images/criss-cross.png");
     background-size: cover;
 }
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    font-family: "Georgia", Times, "Times New Roman", Serif;
+}
+
 .container {
     box-sizing: border-box;
     width: 960px;
     margin-bottom: 0;
 }
+
 div {
     background-color: #ffffff;
     border-color: #dddddd;
 }
 
-.navbar-nav {
-    display: inline-block;
-  }
-  
-  .navbar-nav>li {
-     display: inline-block;
-     text-align: center;
-     padding: 12px;
-  }
-  
-li a {
-    display: block;
-    position: relative;
+.nav-link {
     color: #777777;
-    text-decoration: none;
+    
+}
 
-  }
+#profile {
+    height: 297px;
+}
 
-  .navbar-text {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border-color: #cccccc;
-    font-family: "Georgia", Times, "Times New Roman", Serif;
-    padding: 20px;
-    margin-bottom: 0;
-    margin-left: 0;
+p {
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 h2 {
+    text-align: left;
     border-bottom: solid 1px lightgray;
     padding: 20px 0 20px 0;
     margin: 0 20px 20px 20px;
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', Serif;
 }  
-
-#profile {
-    height: 297px;
-}
 
 html {
     position: relative;
@@ -70,24 +61,6 @@ footer {
     text-align: center;
     background-color: #666666; 
     padding-top: 20px;     
-}
-
-/* contact.html */
-h4 {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: "Georgia", Times, "Times New Roman", Serif;
-    padding: 10px 40px;
-}
-button {
-    padding: 0;
-    border: none;
-    background: none;
-}
-
-.form-group {
-    padding-left: 20px;
-    width: 100;
 }
 
 /* portfolio.html */
@@ -140,4 +113,22 @@ h3, h5 {
 #ten {
     position: absolute;
     top: 95px;
+}
+
+
+button {
+        text-align: center;
+        vertical-align: middle;
+        padding: 1% 3% 0% 3%;
+        height: auto;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        margin: 20px;
+    }
+    
+}
+
+.form-group {
+    padding-left: 20px;
+    width: 100;
 }
