@@ -113,14 +113,15 @@ h3, h5 {
 }
 
 button {
-    text-align: center;
-    vertical-align: middle;
-    padding: 1% 3% 0% 3%;
-    height: auto;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin: 20px;
-}
+        text-align: center;
+        vertical-align: middle;
+        padding: 1% 3% 0% 3%;
+        height: auto;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        margin: 20px;
+    }
+
 
 label {
     padding: 0 20px 0 20px;
