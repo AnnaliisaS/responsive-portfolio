@@ -140,3 +140,7 @@ textarea {
 .tabs {
     display: inline-block;
 }
+
+.contact {
+    text-align: center;
+}
