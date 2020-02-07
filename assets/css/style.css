@@ -10,11 +10,17 @@ h1 {
     color: #ffffff;
     border-color: #cccccc;
     font-family: "Georgia", Times, "Times New Roman", Serif;
+    min-width: 910px;
+    display: inline-block;
 }
 
 .container-fluid, .container {
     box-sizing: border-box;
     max-width: 960px;
+}
+
+header {
+    display: inline-block;
 }
 
 div {
@@ -34,6 +40,7 @@ p {
     color: #777777;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2 {
@@ -128,4 +135,8 @@ textarea {
     float: left;
     margin-right: 10px;
   }
+}
+
+.tabs {
+    display: inline-block;
 }
