@@ -10,17 +10,25 @@ h1 {
     color: #ffffff;
     border-color: #cccccc;
     font-family: "Georgia", Times, "Times New Roman", Serif;
-    min-width: 910px;
+    width: 100%;
     display: inline-block;
 }
 
 .container-fluid, .container {
     box-sizing: border-box;
     max-width: 960px;
+    margin-bottom: 25px;
 }
 
 header {
     display: inline-block;
+}
+.tabs {
+    display: inline-block;
+}
+
+.contact {
+    text-align: center;
 }
 
 div {
@@ -33,7 +41,7 @@ div {
 }
 
 .img-fluid {
-    max-width: 100%;
+    max-width: 250px;
 }
 
 p {
@@ -68,7 +76,7 @@ footer {
     color: #ffffff;
     text-align: center;
     background-color: #666666; 
-    padding-top: 20px;     
+    padding-top: 10px;   
 }
 
 /* portfolio.html */
@@ -76,7 +84,7 @@ footer {
     position: relative;
     z-index: 1; 
     max-width: 100%;
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 img {
@@ -97,7 +105,11 @@ h3, h5 {
     position: absolute;
     z-index: 2;
     max-width: 250px;
-    bottom: 5px;
+    bottom: 45px;
+}
+.instruct {
+text-align: left;
+padding: 0px 0px 0px 20px; 
 }
 
 /* contact.html*/
@@ -137,10 +149,3 @@ textarea {
   }
 }
 
-.tabs {
-    display: inline-block;
-}
-
-.contact {
-    text-align: center;
-}
