@@ -1,30 +1,41 @@
 body {
-    background-image: url("./../images/criss-cross.png");
+    background-image: url("./../images/filter-1990470_1920.png");
     background-size: cover;
 }
 
 h1 {
+    text-align: left;
     text-align: center;
-    padding: 10px;
+    padding: 10px 25px 10px 25px;
     background-color: #4aaaa5;
     color: #ffffff;
     border-color: #cccccc;
     font-family: "Georgia", Times, "Times New Roman", Serif;
-    width: 900px;
     display: inline-block;
+}
+
+h6 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    font-family: "Georgia", Times, "Times New Roman", Serif;
+    margin: 2px;
 }
 
 .container-fluid, .container {
     box-sizing: border-box;
     max-width: 960px;
     margin-bottom: 25px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 
-header {
-    display: inline-block;
-}
+
 .tabs {
     display: inline-block;
+    max-block-size: 10%;
+    margin-left: 20px;
 }
 
 .contact {
@@ -36,8 +47,13 @@ div {
     border-color: #dddddd;
 }
 
+.logo {
+    max-width: 2.5%;
+}
+
 .nav-link {
-    color: #777777;    
+    color: #ffffff;  
+    border: #ffffff solid 1px;  
 }
 
 .img-fluid {
