@@ -1,6 +1,7 @@
 # responsive-portfolio
 
-A portfolio showcasing recent projects utilizing bootstrap.
+A portfolio showcasing recent projects utilizing bootstrap.  
+https://annaliisas.github.io/responsive-portfolio/  
 
 ![Portfolio](/assets/images/portfolio.png)
 
