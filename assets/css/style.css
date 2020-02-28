@@ -18,7 +18,7 @@ h6 {
     text-align: center;
     background-color: #4aaaa5;
     color: #ffffff;
-    border-color: #cccccc;
+    /* border-color: #cccccc; */
     font-family: "Georgia", Times, "Times New Roman", Serif;
     margin: 2px;
 }
